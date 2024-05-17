@@ -1,9 +1,10 @@
 fn main() {
     // vector median
     let mut vector = vec![1, 2, 4, 5, 6, 7, 1, 4, 6, 8, 3, 4, 7, 3, 5, 4, 1, 6, 8, 9, 5];
+    let mut vector_two = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     let mut vector_odd = vec![1, 2, 3];
     let mut vector_even = vec![1, 2, 3, 4];
-    median(&mut vector_even);
+    median(&mut vector_two);
     println!("{:?}", vector);
     mode(&mut vector);
 }
